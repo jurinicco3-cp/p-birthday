@@ -164,6 +164,7 @@ main header p {
     width: 100%;
     color: rgba(var(--text-rgb), 0.64);
     font-size: var(--font-size-xs);
+    font-weight: 500;
     letter-spacing: var(--letter-spacing-md);
     text-align: center;
 }
@@ -215,6 +216,7 @@ main article {
 #main article section time {
     color: rgba(var(--text-rgb), 0.64);
     font-size: var(--font-size-xs);
+    font-weight: 500;
     letter-spacing: var(--letter-spacing-xs);
 }
 #main article section h3 {
