@@ -207,7 +207,7 @@ main article {
 #main article section .section_meta {
     display: flex;
     flex-direction: row;
-    gap: var(--content-margin-xxs);
+    gap: var(--content-margin-xs);
     margin-block-start: var(--content-margin-xxs);
 }
 #main article section span,
@@ -218,7 +218,7 @@ main article {
     letter-spacing: var(--letter-spacing-xs);
 }
 #main article section h3 {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-md);
     letter-spacing: var(--letter-spacing-sm);
 }
 #main article section h3 a {
