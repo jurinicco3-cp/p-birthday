@@ -150,7 +150,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: var(--content-margin-xs);
+    gap: var(--content-margin-sm);
     flex: 1;
 }
 main header {
