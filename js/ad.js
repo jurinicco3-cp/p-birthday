@@ -2,8 +2,8 @@ const sections = document.querySelectorAll('section');
 
 sections.forEach((section, index) => {
 
-  // 4個ごとに広告を入れる
-  if ((index + 1) % 4 === 0) {
+  // 8個ごとに広告を入れる
+  if ((index + 1) % 8 === 0) {
 
     const ad = document.createElement('aside');
 
