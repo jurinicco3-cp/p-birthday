@@ -349,6 +349,11 @@ main article {
     letter-spacing: var(--letter-spacing-md);
 }
 
+/* 未表示（unfilled）の広告エリアを消す */
+.ad-area:has(ins[data-ad-status="unfilled"]) {
+    display: none;
+}
+
 @media (max-width: 768px) {
     #main article {
         margin-inline: var(--content-margin-sm);
