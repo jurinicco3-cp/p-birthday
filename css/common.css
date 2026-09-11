@@ -20,14 +20,12 @@
     --content-margin-md: 2.5rem /* 40px */;
     --content-margin-lg: 3rem /* 48px */;
     --content-margin-xl: 3.5rem /* 56px */;
-    --content-margin-xxl: 5rem /* 80px */;
 
     --font-family-header: "Comfortaa", sans-serif;
     --font-size-xs: 0.75rem /* 12px */;
     --font-size-sm: 0.875rem /* 14px */;
     --font-size-md: 1rem /* 16px */;
     --font-size-lg: 1.25rem /* 20px */;
-    --font-size-xl: 1.5rem /* 24px */;
 
     --letter-spacing-xs: 0.03rem;
     --letter-spacing-sm: 0.05rem;
@@ -94,7 +92,7 @@ a {
     color: var(--sub-text);
     font-family: var(--font-family-header);
     font-optical-sizing: auto;
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
     font-weight: 400;
     font-style: normal;
     letter-spacing: var(--letter-spacing-md);
@@ -175,7 +173,7 @@ main header p {
 }
 main h2 {
     font-family: var(--font-family-header);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
     font-weight: 500;
     font-style: normal;
     letter-spacing: var(--letter-spacing-md);
