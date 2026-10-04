@@ -365,7 +365,7 @@ main article {
     gap: var(--content-margin-xxxs);
     margin-block-start: -1rem;
     margin-inline: var(--content-margin-xl);
-    padding: var(--content-margin-sm);
+    padding: var(--content-margin-xs);
     border-style: solid;
     border-width: 0.0625rem;
     border-color: rgba(var(--sub-text-rgb), 0.64);
