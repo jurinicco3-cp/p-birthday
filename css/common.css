@@ -363,6 +363,7 @@ main article {
     display: flex;
     flex-direction: column;
     gap: var(--content-margin-xxxs);
+    margin-block-start: -1rem;
     margin-inline: var(--content-margin-xl);
     padding: var(--content-margin-sm);
     border-style: solid;
