@@ -361,7 +361,6 @@ main article {
 
 /***** 大人の恋愛 *****/
 .otona_container {
-    margin-inline: var(--content-margin-xl);
     padding: var(--content-margin-sm);
     border-radius: var(--content-margin-xs);
     background: rgba(var(--sub-text-rgb), 0.4);
