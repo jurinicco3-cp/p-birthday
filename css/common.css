@@ -347,6 +347,7 @@ main article {
     letter-spacing: var(--letter-spacing-md);
 }
 
+/***** AD *****/
 /* 未表示（unfilled）の広告エリアを消す */
 .ad-area:has(ins[data-ad-status="unfilled"]) {
     display: none;
@@ -356,4 +357,95 @@ main article {
     #main article {
         margin-inline: var(--content-margin-sm);
     }
+}
+
+/***** 大人の恋愛 *****/
+.otona_container {
+    margin-inline: var(--content-margin-xl);
+    padding: var(--content-margin-sm);
+    border-radius: var(--content-margin-xs);
+    background: rgba(var(--sub-text-rgb), 0.4);
+}
+.otona_container h4 {
+    margin: 0;
+    padding: 0;
+}
+.otona_container h4 a {
+    color: var(--text);
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-md);
+    text-decoration: none;
+}
+.otona_container h4 a:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+.otona_container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--content-margin-xxs);
+    margin: var(--content-margin-xs) 0;
+    padding: 0;
+}
+.otona_container ul li {
+    width: 100%;
+    margin: 0;
+    padding: 0.125rem;
+    border-radius: 6.25rem;
+    background-image: linear-gradient(
+        to right,
+        #E98B91,
+        #CE7BA0,
+        #7569BD,
+        #CE7BA0,
+        #E98B91
+    );
+    background-position: 0% 50%;
+    background-size: 200% 80%;
+    list-style: none;
+    text-align: center;
+    animation: otona-gradient 10s ease-in-out infinite;
+}
+@keyframes otona-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.otona_container ul li a {
+    display: block;
+    padding: var(--content-margin-xxs) var(--content-margin-xs);
+    border-radius: 6.25rem;
+    background: var(--sub-text);
+    color: #e66f98;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-md);
+    text-decoration: none;
+}
+.otona_container span {
+    display: flex;
+    justify-content: right;
+    color: rgba(var(--text-rgb), 0.64);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    letter-spacing: var(--letter-spacing-xs);
+}
+.otona_container span a {
+    color: rgba(var(--text-rgb), 0.64);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    letter-spacing: var(--letter-spacing-xs);
+    text-decoration: none;
+}
+.otona_container span a:hover {
+    color: rgba(var(--text-rgb), 0.64);
+    text-decoration: none;
 }
