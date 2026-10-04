@@ -360,10 +360,21 @@ main article {
 
 /***** 大人の恋愛 *****/
 .otona_container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-margin-xxxs);
     margin-inline: var(--content-margin-xl);
     padding: var(--content-margin-sm);
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: rgba(var(--sub-text-rgb), 0.64);
     border-radius: var(--content-margin-xs);
-    background: rgba(var(--sub-text-rgb), 0.4);
+    background: linear-gradient(
+        to top,
+        rgba(var(--sub-text-rgb), 0.56),
+        rgba(var(--sub-text-rgb), 0.08)
+    );
+    box-shadow: rgba(230, 227, 245, 0.24) 0rem 0.25rem 0.125rem 0.125rem;
 }
 @media (max-width: 768px) {
     .otona_container {
