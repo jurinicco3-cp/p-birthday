@@ -402,7 +402,7 @@ main article {
     flex-direction: column;
     align-items: center;
     gap: var(--content-margin-xxs);
-    margin: var(--content-margin-xs) 0;
+    margin: var(--content-margin-xxs) 0;
     padding: 0;
 }
 .otona_container ul li {
