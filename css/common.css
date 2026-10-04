@@ -192,6 +192,11 @@ main article {
     gap: var(--content-margin-xs);
     margin-inline: var(--content-margin-xl);
 }
+@media (max-width: 768px) {
+    #main article {
+        margin-inline: var(--content-margin-sm);
+    }
+}
 #main article section {
     display: flex;
     flex-direction: column;
@@ -353,18 +358,17 @@ main article {
     display: none;
 }
 
-@media (max-width: 768px) {
-    #main article {
-        margin-inline: var(--content-margin-sm);
-    }
-}
-
 /***** 大人の恋愛 *****/
 .otona_container {
-    margin-inline: var(--content-margin-sm);
+    margin-inline: var(--content-margin-xl);
     padding: var(--content-margin-sm);
     border-radius: var(--content-margin-xs);
     background: rgba(var(--sub-text-rgb), 0.4);
+}
+@media (max-width: 768px) {
+    .otona_container {
+        margin-inline: var(--content-margin-sm);
+    }
 }
 .otona_container h4 {
     margin: 0;
